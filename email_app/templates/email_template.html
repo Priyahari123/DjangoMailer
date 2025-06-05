@@ -1,0 +1,80 @@
+{% load static %}
+{% block content %}
+
+<style>
+    .card {
+        background-image: url("{% static 'images/High Tech Animation GIF by Matthew Butler.gif' %}");
+        background-size: cover;
+        background-repeat: no-repeat;
+       height:100%;
+        color: white;
+    }
+
+    .newsletter-wrapper {
+        height: 100%;
+        margin-left:40%;
+    
+      
+
+    }
+    #form_Data{
+        margin-top:30%
+    }
+</style>
+
+<!-- Background Card -->
+<div class="card h-100 w-100 ">
+    <div class="card-header"></div>
+  
+    <div class="card-body mt-5">
+
+        <!-- Centered Form -->
+         <div class="row justify-content-center mt-8">
+            <div class="newsletter-wrapper d-flex justify-content-center align-items-center container">
+  <br>
+    <div class="border border-primary border-3 rounded p-5 shadow bg-light">
+        <form class="d-flex flex-column align-items-center gap-3" method="post" id="form_Data">
+            {% csrf_token %}
+            <h2 class="text-primary">Send Email to Friends</h2>
+            <input class="form-control form-control-lg w-100 h2" type="text" name="name" placeholder="Your name">
+            <input class="form-control form-control-lg w-100 h2" type="email" name="email" placeholder="Your Email">
+            <input class="form-control form-control-lg w-100 h2" type="subject" name="subject" placeholder="Your subject">
+            <textarea name="content" id="content" class="col-12" placeholder="Enter your content"></textarea>
+            <button class="btn btn-primary btn-lg w-100 bg-primary" type="submit">Send</button>
+        </form>
+    </div>
+
+
+        </div>
+        </div>
+
+    </div>
+</div>
+
+
+<link rel="stylesheet" href="{% static 'important/bootstrap.min.css' %}">
+<script src="{% static 'important/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'important/jquery.min.js' %}"></script>
+
+
+<script>
+$('#form_Data').submit(function(event){
+    event.preventDefault();
+    var frm=$('#form_Data').serialize()
+    $.ajax({
+        type:"POST",
+        url:"/email_send/",
+        data:frm,
+        success:function(response){
+            console.log(response['status'],"response")
+            location.reload()
+        }
+
+    })
+})
+</script>
+
+
+
+
+{% endblock content %}
