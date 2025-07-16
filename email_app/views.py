@@ -61,7 +61,7 @@ def email_send(request):
                 # TODO:  Update with your own body
                 'body': content,
                 # TODO: Update the signature
-                'sign': 'Sender',
+                'sign': 'Haripriya C',
             })
         send_mail(
             subject,
