@@ -22,7 +22,7 @@ A clean and modern Django-based web application to send emails through a respons
 ## 🖼️ UI Highlights
 
 <div align="center">
-  <img src="{% static 'images/image.png' %}" alt="Email Sender UI" width="700"/>
+  <img src="static/images/image.png" alt="Email Sender UI" width="700"/>
 </div>
 
 - **Stylish Card Layout** using Bootstrap 5
@@ -86,7 +86,7 @@ Copy
 Edit
 http://127.0.0.1:8000/email_send/
 📩 Sample Screenshot
-<div align="center"> <img src="{% static 'images/image.png' %}" alt="Email Form Screenshot" width="700"/> </div>
+<div align="center"> <img src="static/images/image.png" alt="Email Form Screenshot" width="700"/> </div>
 🤝 Contributing
 Pull requests are welcome! Feel free to submit improvements, report bugs, or suggest features.
 
