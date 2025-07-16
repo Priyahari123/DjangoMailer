@@ -1,1 +1,1 @@
-# Django-projects
+#Email sending project
