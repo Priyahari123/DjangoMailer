@@ -22,7 +22,7 @@ A clean and modern Django-based web application to send emails through a respons
 ## 🖼️ UI Highlights
 
 <div align="center">
-  <img src="https://github.com/Priyahari123/DjangoMailer/issues/1#issue-3234823165" alt="Email Sender UI" width="700"/>
+  <img src="https://private-user-images.githubusercontent.com/110826217/466870588-0c7a738b-5a30-4a6b-9f42-aeac0561ea7b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTI2NTEzMDQsIm5iZiI6MTc1MjY1MTAwNCwicGF0aCI6Ii8xMTA4MjYyMTcvNDY2ODcwNTg4LTBjN2E3MzhiLTVhMzAtNGE2Yi05ZjQyLWFlYWMwNTYxZWE3Yi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcxNlQwNzMwMDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kZDljMjI1MGUwNzcxOTA0Zjk1YmE4MTQzYjEyYjYzOTJhMzc5NmU2NTM1YzQwNDUwZDUxZWNiNDg3Zjg5NGNmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.64ygyHviN-LxaqNuC-fDxIl94jRJsWatH-uAWy4rcTM" alt="Email Sender UI" width="700"/>
 
   
 </div>
@@ -88,7 +88,7 @@ Copy
 Edit
 http://127.0.0.1:8000/email_send/
 📩 Sample Screenshot
-<div align="center"> <img src="https://github.com/Priyahari123/DjangoMailer/issues/1#issue-3234823165" alt="Email Form Screenshot" width="700"/> </div>
+<div align="center"> <img src="https://private-user-images.githubusercontent.com/110826217/466870588-0c7a738b-5a30-4a6b-9f42-aeac0561ea7b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTI2NTEzMDQsIm5iZiI6MTc1MjY1MTAwNCwicGF0aCI6Ii8xMTA4MjYyMTcvNDY2ODcwNTg4LTBjN2E3MzhiLTVhMzAtNGE2Yi05ZjQyLWFlYWMwNTYxZWE3Yi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcxNlQwNzMwMDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kZDljMjI1MGUwNzcxOTA0Zjk1YmE4MTQzYjEyYjYzOTJhMzc5NmU2NTM1YzQwNDUwZDUxZWNiNDg3Zjg5NGNmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.64ygyHviN-LxaqNuC-fDxIl94jRJsWatH-uAWy4rcTM" alt="Email Form Screenshot" width="700"/> </div>
 🤝 Contributing
 Pull requests are welcome! Feel free to submit improvements, report bugs, or suggest features.
 
