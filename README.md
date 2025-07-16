@@ -1,45 +1,98 @@
-📧 Email Sender Web App
-A modern and user-friendly Django-based web application that allows users to send emails through a sleek and responsive interface.
+# 📧 Email Sender Web App
 
-✨ Features
-✅ Simple and clean UI with Bootstrap 5
+A clean and modern Django-based web application to send emails through a responsive and user-friendly interface.
 
-✅ Send emails by entering Name, Email, Subject & Message
+![Email Sender Banner](https://img.shields.io/badge/Django-4.x-green?style=flat&logo=django)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple?style=flat&logo=bootstrap)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-✅ AJAX-based form submission for smooth UX
+---
 
-✅ Beautiful success popup using SweetAlert2
+## ✨ Features
 
-✅ CSRF protection and input validation
+- ✅ Simple and elegant email form inside a Bootstrap card
+- ✅ AJAX-powered submission (no page reload)
+- ✅ SweetAlert2 popup for success messages
+- ✅ Responsive design — works across all devices
+- ✅ Input validation and CSRF protected
+- ✅ Neatly structured views and form handling
 
-✅ Reload page after success without full refresh
+---
 
-✅ Responsive design — works on mobile and desktop
+## 🖼️ UI Highlights
 
-🛠️ Tech Stack
-Backend: Django, Python
+<div align="center">
+  <img src="{% static 'images/image.png' %}" alt="Email Sender UI" width="700"/>
+</div>
 
-Frontend: HTML5, CSS3, Bootstrap 5, JavaScript, AJAX
+- **Stylish Card Layout** using Bootstrap 5
+- **Large Inputs & TextArea** for better usability
+- **Custom SweetAlert2 Dialog** after sending email
+- **Responsive design** with padding and alignment
 
-Libraries: SweetAlert2 for alerts
+---
 
-Database: SQLite or PostgreSQL (configurable)
+## 🛠️ Tech Stack
 
-📷 UI Highlights
-Attractive email form inside a styled card component
+| Layer        | Technology           |
+|--------------|----------------------|
+| **Frontend** | HTML5, CSS3, Bootstrap 5, JavaScript, AJAX |
+| **Backend**  | Django, Python 3     |
+| **Alerts**   | SweetAlert2          |
+| **Database** | SQLite / PostgreSQL  |
 
-Large input fields and textarea for readability
+---
 
-Custom background alert on successful email submission
+## 🚀 Getting Started
 
-🚀 How to Run
-Clone the repository
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/yourusername/email-sender-django.git
+   cd email-sender-django
+Create a virtual environment
 
-Set up a virtual environment and install requirements
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+Install dependencies
 
-Configure email settings in settings.py
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Configure your email backend in settings.py
 
-Run python manage.py runserver
+python
+Copy
+Edit
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'your_email@gmail.com'
+EMAIL_HOST_PASSWORD = 'your_password'
+Run the server
 
-Visit the /email_send/ URL
+bash
+Copy
+Edit
+python manage.py runserver
+Navigate to:
+
+arduino
+Copy
+Edit
+http://127.0.0.1:8000/email_send/
+📩 Sample Screenshot
+<div align="center"> <img src="{% static 'images/image.png' %}" alt="Email Form Screenshot" width="700"/> </div>
+🤝 Contributing
+Pull requests are welcome! Feel free to submit improvements, report bugs, or suggest features.
+
+
+
+📬 Contact
+Author: Haripriya C
+📧 Email: haripriyaece123@gmail.com
 
