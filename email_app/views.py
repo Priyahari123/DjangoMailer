@@ -51,6 +51,7 @@ def email_send(request):
         content = request.POST.get('content', None)
         subject = request.POST.get('subject', None)
         print(email, "email")
+        your_email='youremail@gmail.com'
 
         # inject the respective values in HTML template
         html_message = loader.render_to_string(
@@ -66,7 +67,7 @@ def email_send(request):
         send_mail(
             subject,
             'You are lucky to receive this mail.',
-            'haricoderhub1111@gmail.com',  # : Update this with your mail id
+            your_email,  # : Update this with your mail id
             [email],  # : Update this with the recipients mail id
             html_message=html_message,
             fail_silently=False,
