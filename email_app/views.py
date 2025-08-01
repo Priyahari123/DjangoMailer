@@ -12,37 +12,6 @@ from django.http.response import JsonResponse
 def home(request):
     return render(request,"email_template.html")
 
-# def email_send(request):
-#     if request.method == "POST":
-#         email = request.POST.get('email', None)
-#         print(email, "email")
-
-#         # Prepare context for the template
-#         context = {
-#             'name': 'Recipient Name',
-#             'body': 'This email is to verify whether we can send email in Django from Gmail account.',
-#             'sign': 'Sender',
-#         }
-
-#         # Render the HTML email content
-#         html_message = context
-
-#         # Send the email
-#         send_mail(
-#             subject='Test Email',
-#             message='This is a plain test email.',
-#             from_email='haricoderhub1111@gmail.com',
-#             recipient_list=[email],
-#             fail_silently=False,
-#             html_message=html_message
-#         )
-
-
-
-
-#         return JsonResponse({'status': 'success'})
-    
-
 
 def email_send(request):
     if request.method == "POST":
